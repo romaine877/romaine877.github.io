@@ -150,7 +150,7 @@ header a:hover
     width:200px;
     margin-top: 20px;
     color: #ffffff;
-    background-color: #e8491d;
+    background-color: #f4f4f4;
     text-align: center;
 }
 
@@ -263,10 +263,12 @@ header a:hover
 
 footer
 {
-  padding:15px;
+  padding:30px;
   color:#ffffff;
   background: #35424a;
   border-top: #ff0000 3px solid;
+  
+  
 }
 
 #footer .social
@@ -290,7 +292,7 @@ footer
     width: 98%;
     font-size: 200%;
   }
-
+  
   header a
   {
     font-size: 80%;
@@ -340,11 +342,13 @@ footer
     transition: 0.3s;
     margin-bottom: 25px;
     background-color: white;
+    
   }
   .card-image
   {
     display:inline-block;
     vertical-align:top;
+    
   }
 
   .card-content
