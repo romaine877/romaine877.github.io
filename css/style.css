@@ -360,8 +360,55 @@ footer
 }
 
 
+#redirect
+{
+  background-color: #0000002a;
+  z-index: 20;
+  display: flex;
+  width: 100%;
+  height: 100%;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  position: fixed;
+  background-color: rgba(0, 0, 0, 0.7);
+  align-items: center;
+  justify-content: center;
+}
 
+.redirect-container{
+  width: 500px;
+  height: 500px;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 8px 8px 8px 8px rgba(0,0,0,0.2);
+  transition: 0.3s;
+  margin-bottom: 25px;
+  background-color:#eef2ff;
+  display: flex;
+  flex-direction: column;
+}
+.redirect-text{
+  text-align: center;
+  
+  color: #000000;
+}
 
+.redirect-image:hover{
+  cursor: pointer;
+  opacity: 0.25;
+}
+  
+button.redirect-close-button{
+  border: #000000;
+  padding: 5px;
+  border-radius: 5px;
+  margin: auto;
+  background-color: #3b82f6;
+  cursor: pointer;
+  width: 30%;
+}
 
 
 

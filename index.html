@@ -2,17 +2,19 @@
   <html>
 
   <head>
-    <link rel="shortcut icon" href="./img/favicon.ico"/>
+    <link rel="icon" href="/img/favicon.ico" />
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
     <meta name="description" content="Romaine Halstead">
     <meta name="author" content="Romaine Hastead">
     <title>Romaine Halstead | IT Professional</title>
 
+   
     <link rel="stylesheet" href="./css/style.css">
   </head>
 
   <body>
+    
     <header>
       <div class="container">
         <div id="branding">
@@ -43,7 +45,7 @@
     <section id="midbar">
       <div class="container">
         <h1> Download my Resume</h1>
-        <a href="./files/RomaineHalstead_Resume.pdf"><img border="0" src="./img/pdf.png"></a>
+        <a href="./files/RomaineHalstead_Resume.pdf"><img src="./img/pdf.png"></a>
       </div>
     </section>
 
@@ -71,13 +73,42 @@
       <section id="footer">
         <div class="container">
           <div class="social">
-            <a href="https://www.facebook.com/romaine876"><img src="./img/facebook.png"></a>
-            <a href="https://www.instagram.com/romaine876/"><img src="./img/instagram.png"></a>
-            <a href="https://www.linkedin.com/in/romaine-halstead-52a94273/"><img src="./img/linkedin.png"></a>
+            <a href="#"><img src="./img/facebook.png"></a>
+            <a href="#"><img src="./img/instagram.png"></a>
+            <a href="#"><img src="./img/linkedin.png"></a>
           </div>
       </section>
     </footer>
 
+  <div id="redirect">
+    <div class="redirect-container">
+      <div class="redirect-text">
+        <h1>This website is currently deprecated </h1>
+    
+        <div class="redirect-image">
+          <a href="https://romaine.tech/">
+  
+            <img src="./img/website.png" width="300px" height="200px">
+          </a>
+
+        </div>
+        <p>Visit my new website built with NextJS and TailwindCSS.</p>
+      </div>
+      <button id="close-modal" class="redirect-close-button">
+        Close
+      </button>
+    </div>
+    <script>
+      var closeModal = document.getElementById('close-modal');
+      var redirect = document.getElementById('redirect');
+
+      
+      closeModal.onclick = function() {
+        redirect.style.display = 'none';
+      }
+    </script>
+
   </body>
+
 
   </html>
